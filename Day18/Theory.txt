@@ -1,0 +1,6 @@
+Multidimensional Array: Array of Arrays
+Creating 1-D array: datatype array_name [size];
+Creating Multidimensional array: datatype array_name [size1] [size2] ... [sizeN];
+Creating 2-D array: datatype array_name [i] [j]; Imagine it as a table or matrix
+Number of elements = i*j; i --> number of rows and j --> number of columns
+Uses of Multidimensional Arrays: Representing grids, Faster access, Predefined size
