@@ -1,0 +1,4 @@
+2D Vectors: Vector of vector datatype
+Definition: vector<vector<datatype>> vector_name
+Creating a 2D Vector with n,m size and all values = 0:
+    vector<vector<int>> V(3, vector<int>(4,0));
