@@ -1,0 +1,59 @@
+#Lecture 1
+Programming: It is the process of creating a set of instructions that tells a computer how to perform a task.
+Program: Set of instructions
+Machine understands only zero and one (Machine Language is low-level programming language that understands hardware)
+Zero = Low voltage = No current passing
+One = High voltage = Current passing through the circuit
+Assembly level language is also low level programming language that understands hardware directly but every line of text corresponds to single line instruction. There are less chances of error, easy to read and understand but depends upon specific OS and Computer Architecture.
+High Level languages are less complex that machine code and easier to understand; equivalent to human languages.
+We use compiler and interpreter to convert high level languages to machine code.
+Types of High Level Languages:
+1. Procedural: Code is written in a set of procedures which get executed in serial order. These procedures are called as subroutines/functions.
+Example: C, Basic, Pascal, etc.
+2. Functional: Code is written in a set of functions. A function is simply a chunk of code that you can use over and over again, rather than writing it out multiple times. They enable programmers to break down or decompose a problem into smaller chunks, each of which performs a particular task.
+Functions take inputs called parameters
+Example: Python, JavaScript
+3. Object Oriented Programming: We use objects/real life entities and classes/user-defined prototypes whose properties, attributes and methods can be defined and used by all.
+Example: Java, C#, C++
+C++ is both OOPs and Procedural language. It was developed by Bjarne Stroustrup in 1979. It is a superset of C and faster than it, increasing its reusibility and making it famous for competitive programming.
+
+#Lecture 3
+Comments: To increase readability; use // or /* */
+endl or "\n" for new line
+Variables: Containers where we store values; data_type variable_name = value;
+Variable Naming Convention: Use camelcase for variable_name, no number at first, no whitespace, no keyword; Example: int teaContainer;
+Identifers: Names of class, method, variable, etc.
+Legal Identifiers: _,$,A-Z,a-z at first allowed, numbers not at first, no keyword, no whitespace, case sensitive
+Primary/Built-in Datatypes: int, char, bool, float, double floating, void, wide char
+Derived(from Primary) Datatypes: function, array, pointer, reference
+User Defined Datatypes: Class, structure, union, enum, typedef
+Integer Datatype: 4 bytes, 2^32 combinations
+Character Datatype: 1 byte
+Boolean Datatype: 1 byte; true or false
+Floating Point Datatype: 4 bytes, till 7 decimal places; stores decimals/exponential numbers
+Double Floating Point Datatype: 8 byes, till 15 decimal places
+Void Datatype: Null or nothing
+Wide Character Datatype: 2 bytes
+String Datatype: Not primary, string name = "Aa", dynamic memory allocated to string
+Input: cin>>variable ; Output: cout<<output
+
+#Lecture 4
+Arithmetic Operators: Addition (+), Subtraction(-), Multiplication(*), Division(/), Modulus(%), Increment(++), Decrement(--)
+Relational Operators: Is Equal to(==), Not Equal to(!=), Greater than(>), Less than(<), Greater than equal to (>=), Less than equal to(<=)
+Logical Operators: Logical And(&&), Logical Or(||), Logical Not(!)
+Assignment Operators: =, +=, -=, *=, /=, %=, 
+Bitwise Operators: Bitwise Complement(~), Left Shift(<<), Right Shift(>>), Bitwise Or(|), Bitwise And(&), Bitwise Exclusive Or(^)
+a<<b = a * (2^b); a>>b = a/(2^b)
+Unary Operators: Unary Plus(+), Unary Minus(-), Increment(++), Decrement(--), Logical Complement(!)
+Post Increment: (a++)--> Return value of a and then increment it
+Pre Increment: (a--)--> Increment value of a and then return its new value
+Misc Operators: sizeOf, Ternary(Condition? Expression 1: Expression 2), Comma(,), Dot and Arrow(. ->), Casting, Address(&), Pointer(*)
+C++ Operators Precedence and Associativity: https://4.bp.blogspot.com/-RTANrXQEtaI/Ty0UX_BdlxI/AAAAAAAAABM/1t8EBkHEARo/s1600/untitled_thumb.png
+
+#Lecture 5
+If statement: if(condition){//code}
+If-else statement: if(condition){//code}else{//code}
+If-else if-else statement: if(condition){//code}else if(condition){//code}else{//code}
+Nested if-else statement: if-else statements inside if-else statement
+Conditional Operators: Logical And(&&), Logical Or(||), Ternary
+Switch statement: switch(expression){case x: //code break; case y: //code break; default: //code}
