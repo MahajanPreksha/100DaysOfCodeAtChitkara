@@ -1,0 +1,8 @@
+Number System: helps to represent a number using different forms and base values
+Base Value 10: 0-9 digits and powers of 10 (Decimal Number System)
+Example: 524 = 5 * 10^2 + 2 * 10^1 + 4 * 10^0
+Base Value 2: 0, 1 digits and powers of 2 (Binary Number System)
+Example: 1010 = 1 * 2^3 + 0 * 2^2 + 1 * 2^1 + 0 * 2^0 = 10
+Base Value 16: 0-9 digits, A-F alphabets and powers of 16 (Hexadecimal Number System)
+Example: 4A5C = 4 * 16^3 + 10 * 16^2 + 5 * 16^1 + 12 * 16^0
+parity digit = n%2
