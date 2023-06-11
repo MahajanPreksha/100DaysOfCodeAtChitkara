@@ -1,1 +1,13 @@
-
+Array: Data Structure which stores a collection of homogeneous items(of same type like: int, char, bool)
+Represented as a block of memory divided into more blocks. Length of array = number of inside blocks
+Index: Tells about location of every element in array (starts with 0)
+Array Declaration: data_type array_name [arraysize]
+Contiguous Memory Allocation: elements are stores in consecutive blocks of memory
+Let address of 1st element = x
+Address of 2nd element = x + sizeofelement
+Array Types: Single dimensional or 1-D array and Multidimensional array
+Accessing elements in Single dimensional array: 0 based indexing
+Index of last element = sizeofarray - 1
+Size Operation in Arrays: using sizeof operator; sizeof(array)/sizeof(array[0])
+If array is not initialised, they will contain garbage values.
+For Each Loop: for(data_type variable_name:array_name){//code} [All elements can be accessed]
