@@ -1,0 +1,17 @@
+Experimental Time Complexity Analysis is a way to estimate the time complexity of an algorithm by running it on various inputs and measuring the running time.
+We don't prefer Experimental Analysis.
+Asymptotic Analysis is a way to estimate time complexity using number of operations w.r.t. change in big input. Small constants don't matter.
+Growth of an Algorithm: Change in number of operations/ Change in input size
+Slow growth = Better algorithm
+y = x (Linear, linear growth)
+y = c (Constant, no growth)
+y = 4ax (Parabola, lot of growth)
+y = log x (Grows initially, later constant, better than y = x)
+Fast to slow: if algorithm has instructions of order c, log n, n^(1/2), n, n log n, n^2, n^3, 2^n
+Types of Time Complexity Analysis:
+(1) Worst Case Time Complexity: Big O
+(2) Best Case Time Complexity: Big Omega
+(3) Average Case Time Complexity: Big Theta
+For 2 different loops: O(n+m)
+For 2 nested loops: O(n^2)
+Space Complexity: It is the extra memory space requirement of an algorithm.
