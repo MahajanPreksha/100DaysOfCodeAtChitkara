@@ -1,0 +1,15 @@
+Vectors are dynamic arrays, they can be resized when you want to insert/delete elements.
+Contiguous memory allocated
+#include<vector> is the header file for Vectors
+Declaration: vector<datatype> vector_name; OR vector<datatype> vector_name(size);
+Size/Length: v.size();
+Resize: v.resize(new_size);
+Capacity: v.capacity();
+capacity>=size for a vector; it changes dynamically; increases in the power of 2
+Add Elements: v.push_back(element); adds element at the end
+v.insert(position, element); adds element at the specific position
+Position of first element: v.begin();
+Position of last element: v.end();
+Delete Elements: v.pop_back(); deletes last element
+v.erase(position); deletes element relative to first element
+v.clear(); deletes all elements
