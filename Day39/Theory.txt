@@ -1,0 +1,5 @@
+Pointers: used to point to some location in the memory.
+Declaration: data_type *pointer_name; stores garbage value by default
+Address-of Operator: Helps to access memory of a variable using & Operator; &variable_name
+Pointers store the address of a variable by using & operator.
+Dereference Operator: *
