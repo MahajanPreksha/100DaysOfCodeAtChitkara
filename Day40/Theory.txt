@@ -1,0 +1,11 @@
+Pointer Arithmetic: for incrementing and decrementing operations; different from Integer Arithmetic
+Increment/Decrement Operations: shift in memory location that the pointer is pointing
+Increment Operation: Points towards subsequent memory location
+ptr + x stores the address (ptr + x*sizeofdatatypeofx)
+We can use ++ and -- for pointers too.
+*(++ptr): first move pointer by n bytes (depends upon datatype) and then dereference
+++(*ptr): first deference, then increment the dereferenced value
+cout<<arr: returns the address of arr[0];
+cout<<*arr: returns the value of arr[0];
+*(arr+1): value of 1st index
+We can use pointer to point towards entire array.
