@@ -1,0 +1,9 @@
+Types of Pointers:
+(1) Wild Pointer: A pointer where the user declares the pointer but doesn’t initialise it with any value.
+Consequently it ends up pointing to any random memory location. (Returns garbage value)
+Due to this, you might get some undefined behaviour and crashes. We can also get segmentation fault.
+(2) Null Pointer: If we want to have a pointer variable which is just declared but want to store address later, we can use Null Pointer.
+We can't deference Null Pointer, we will get runtime error and program terminates immediately.
+(3) Dangling Pointer: A pointer that points to a memory location that is not valid.
+(4) Void Pointer: A pointer that can point to any datatype value. 
+These pointers can't be dereferenced. So, we can use Type Casting.
