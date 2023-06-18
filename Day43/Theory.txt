@@ -1,0 +1,17 @@
+Recursion: In recursion, we try to solve a bigger problem by finding out solutions to smaller sub-problems. We represent these problems in the form of
+functions and these functions call itself to solve smaller sub-problems.
+Principle of Mathematical Induction(PMI) is used,
+(1) Base Case: n = 1 //Also called Halting Condition
+(2) Assumption: n = k
+(3) Self-work: n = (k+1)
+Time Complexity of Recursive Functions = No. of times function is called * Time consumed in one single function called; O(n)
+Space Complexity of Recursive Functions = O(n)
+Space gets introduced due to call stack.
+Syntax:
+methodName(N parameters){
+    if(haltCondition){
+        return result --> Base Case
+    }
+    return methodName(N parameters) --> Assumption + Self-work
+}
+methodName --> Bigger Problem
