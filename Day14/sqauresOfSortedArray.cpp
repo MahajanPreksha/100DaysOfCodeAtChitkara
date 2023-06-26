@@ -1,6 +1,7 @@
 #include<iostream>
 #include<vector>
 #include<algorithm>
+#include<cmath>
 using namespace std;
 void squaresOfSortedArray(vector<int> &v){
     vector<int> ans;
@@ -16,7 +17,9 @@ void squaresOfSortedArray(vector<int> &v){
             left_ptr++;
         }
     }
-    sort(ans.begin(), ans.end());
+    if (left_ptr == right_ptr)
+        ans.push_back(v[left_ptr] * v[left_ptr]);
+    reverse(ans.begin(), ans.end());
     for(int i=0; i<ans.size(); i++){
         cout<<ans[i]<<" ";
     }
