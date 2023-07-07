@@ -7,8 +7,15 @@ int main() {
 	while(T--){
 	  int A, B, C;
 	  cin>>A>>B>>C;
-	  int minimum = min(B, C);
-	  if(A>=minimum){
+	  if(B>C){
+	    B = (B - C);
+	    C = 0;
+	  }
+	  else{
+	    C = (C - B);
+	    B = 0;
+	  }
+	  if(A>(B + C)){
 	    cout<<"YES"<<endl;
 	  }
 	  else{
