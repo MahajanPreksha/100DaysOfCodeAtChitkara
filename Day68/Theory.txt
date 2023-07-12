@@ -1,0 +1,12 @@
+Insertion Sort Algorithm: Repeatedly take elements from unsorted sub-array and insert in sorted sub-array
+Example: 11, 8, 15, 9, 4
+(1) 8, 11, 15, 9, 4
+(2) 8, 11, 15, 9, 4
+(3) 8, 9, 11, 15, 4
+(4) 4, 8, 9, 11, 15
+Time Complexity: O(n^2)
+Space Complexity: O(1)
+Applications of Insertion Sort:
+(1) where there are few unsorted elements
+(2) where array is almost sorted
+Insertion Sort is a Stable Sorting Algorithm
