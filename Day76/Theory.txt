@@ -1,0 +1,24 @@
+Depending upon different cases and user demands, there are different kind of searching problems.
+Linear Search Algorithm: Find a target element in data
+Example: 1, 6, 9, 3, -1, 8, 2 ; Target = 8
+Brute Force: Go to every element and match with the target; ith index is the answer
+Size of Search Space (That range/dataset where you apply searching):
+    N --> (N-1) --> (N-2) --> ... --> 3 --> 2 --> 1 :: Linear Reduction of N
+Worst Case: when target is not present
+Time Complexity: O(N) --> Brute Force Solution/Linear Search
+Binary Search Algorithm:
+(1) Divide search space into 2 equal parts: left and right
+(2) Left search space should be different from right search space on the basis of some property
+Example 1: Sorted Array--> 1, 8, 13, 15, 18, 22, 35, 40; target = 35
+(a) Entire Array is the search space
+(b) Divide Array into two equal halves
+(1) low = 1; mid = 15; high = 40;
+(2) mid < 35 --> low = mid + 1 --> low and mid < 35; low = mid + 1;
+(3) low = mid --> ans = 6
+Space Complexity: O(1)
+Time Complexity: O(log N)
+Flaws of Iterative and Recursive Approaches:
+(1) We are calculating mid in both approaches. low and high --> INT_MAX; Integer overflow may occur
+Solution- mid = (low+high+low-low)/2
+              = ((low+low)+(high-low))/2
+              = low + (high-low)/2
