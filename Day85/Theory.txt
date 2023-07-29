@@ -1,0 +1,40 @@
+Constructor: It is used to initialise an object. It is a function which is called when an object is created.
+It has the same name as the class name.
+Types: (a) Default (b) Parametrised (c) Copy
+Destructor: It is a function which is called when object is deleted. It can't pass any parameters.
+Name- ~(class.name)
+delete keyword can be used for object pointer.
+Encapsulation: It refers to binding of methods and variables together into a single unit called Class.
+Data is only accessible from the class methods.
+It also leads to data abstraction (hiding). That's why class is also called Abstract Data Type (ADT).
+Abstraction: It enables us to display only essential information while hiding implementation details.
+Example: pow(x, y) --> x^y [how this function is working is hidden]
+Inheritence: Through this, a class inherits properties of another class.
+(Parent/Super Class) A ---> B (Child/Sub Class)
+Access Specifiers and Modes of Inheritence:
+(a) public: data and functions can be accessed anywhere from the code
+(b) private: data and functions are accessible only in own class
+(c) protected:data and functions will be access in own class, parent class and derived/child class
+Types of Inheritence:
+(a) Single Inheritence: Class A ---> Class B
+(b) Multilevel Inheritence: Parent class is derived from another class
+(c) Multiple Inheritence: Class A <--- Class C ---> Class B
+(d) Hierarchical Inheritence: Multiple child classes
+(e) Hybrid Inheritence: Combination of more than 1 types of Inheritence
+Diamond Problem: Base class has multiple parent classes having a common ancestor
+Polymorphism: It is the ability of objects/methods to take different forms.
+Types of Polymorphism:
+(a) Compile Time Polymorphism: Form to be picked up at compile time. It is seen through function/operator overloading.
+Function Overloading: Defines a number of functions with same function name but they perform differently according to the arguments passed (how many, type)
+Operator Overloading: Gives special meaning and functioning to different operators.
+--> Function names should be same, but parameters can be different.
+--> Faster execution time
+--> More memory efficient
+(b) Run Time Polymorphism: Form to be picked up at run time. It is seen through function overriding.
+Function Overriding: Child class defines a function of parent class.
+Use of 'virtual' keyword for function overriding
+--> Function name and parameters should be same
+--> Slower execution time
+--> Less memory efficient
+Function Friend: Non-member function which can access private member of Class
+Syntax: friend F1();
