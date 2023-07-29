@@ -1,0 +1,14 @@
+Procedure Oriented Programming:
+- Conventional programming paradigm that uses high level languages like: C, COBOL, FORTRAN
+- Programs are divided into tasks and grouped into functions
+- Global data: accessible from entire program
+- Demerits of global data: difficult to track which function changes data and if data structure is changed, functions need to be revised
+Object Oriented Programming:
+- Main focus on data
+- Bind the data to the function using it
+- Program is divided into objects which are further divided into data and functions
+- Protects data from accidental changes
+Class: It is the fundamental unit of OOPs. It is a user defined data type.
+Example: Class Fruit --> Properties: colour, taste --> Variables: Mango, Apple, Grapes (Objects)
+Objects: Objects are variables of type Class.
+By default, objects of a class are private. To access the properties, we need to use public.
