@@ -1,0 +1,30 @@
+Quick Sort is based on Divide and Conquer Paradigm.
+Example: 10, 3, 7, 9, 1, 8 --> 7 is at the correct position w.r.t sorted array. //Choose 8 as partition element
+(1) 3, 7, 1, 8, 10, 9 //Choose 1 as partition element 9 as partition element
+(2) 1, 3, 7, 8, 9, 10 //Choose 7 as partition element
+(3) 1, 3, 7, 8, 9, 10
+Last element --> Partition element --> Pivot element (for simplicity)
+Choosing the pivot element (variations):
+(1) Last element
+(2) First element
+(3) Median element
+(4) Random element
+Time Complexity:
+Best Case- O (n*log n)
+Worst Case- O(n*n)
+Average Case- O(n*log n)
+Space Complexity: O(n)
+Quick Sort is not a stable sorting algorithm.
+Applications of Quick Sort Algorithm:
+(1) where memory is a concern
+(2) inbuilt sorting algorithms
+Merge Sort vs Quick Sort:
+(1) Merge Sort:
+- large datasets
+- stable
+- linked list
+(2) Quick Sort:
+- smaller datasets
+- unstable
+- not for linked list
+- where memory is a concern
