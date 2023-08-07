@@ -1,0 +1,29 @@
+#Lecture 41
+Count Sort: Store every element's frequency and then sort.
+Steps:
+(1) Find maximum element.
+(2) Calculate cummulative frequency.
+(3) Create answer array.
+Time Complexity: O(n) where max element is of the order of n.
+Space Complexity: O(n + k)
+Count Sort is not applicable on negative numbers. However, we can alter it by subtracting the negative number with max absolute value and then adding it in answer array.
+Count sort need to be used in an array where there are disparities.
+
+Radix Sort: It is somewhat based on Count Sort.
+Start from least significant digit (one's digit) and then sort accordingly.
+Example: 170, 45, 75, 90, 802, 2
+(1) 170, 90, 802, 2, 45, 75
+(2) 802, 2, 45, 170, 75, 90
+(3) 2, 45, 75, 90, 170, 802
+Time Complexity: O(d*n)
+Space Complexity: O(n)
+
+#Lecture 42
+Bucket Sort: This technique is mostly used to sort floating numbers by creating ranges.
+Steps:
+(1) Create buckets of size n.
+(2) Insert elements into buckets. (index = arr[i]*n)
+(3) Sort individual buckets.
+(4) Combine all elements.
+Time Complexity: O(n+k) for average case; O(n*n) for worst case
+Space Complexity: O(n+k)
